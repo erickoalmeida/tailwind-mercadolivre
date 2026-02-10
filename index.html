@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Livre - Erick Oliveira</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 m-0">
+    <div class="bg-[#ffe600]">
+        <div class="flex justify-center">
+            <a href="index.html">
+                <img class="w-40 h-10" src="IMAGEM/pt_logo_large_plus@2x.webp">
+            </a>
+            <label class="pr-10"></label>
+            <input class="bg-white w-155 p-2 text-gray-600" placeholder="Buscar produtos, marcas e muito mais...">
+            <img class="w-100 h-10 pl-15" src="IMAGEM/D_NQ_792018-MLA104004458470_012026-OO.webp">
+        </div>
+        <div class="flex">
+            <div class="flex justify-start md:pl-87 pr-5">
+                <img class="w-7 h-7" src="IMAGEM/2838912.png">
+                <div class="inline pr-4">
+                    <p class="text-gray-600 text-xs">Enviar para</p>
+                    <p class="text-sm">Parelhas 59360000</p>
+                </div>
+            </div>
+            <div class="flex gap-5 pt-5">
+                <p class="text-xs">Categorias</p>
+                <p class="text-xs">Ofertas</p>
+                <p class="text-xs">Cupons</p>
+                <p class="text-xs">Supermercado</p>
+                <p class="text-xs">Moda</p>
+                <p class="text-xs">Mercado Play</p>
+                <p class="text-xs">Vender</p>
+                <p class="text-xs">Contato</p>
+            </div>
+            <div class="pl-53 gap-5 flex">
+                <a href="login.html" class="text-xs pt-3">Crie sua conta</a>
+                <a href="login.html" class="text-xs pt-3">Entre</a>
+                <a href="carrinho-de-compras.html" class="text-xs pt-3">Compras</a>
+                <a href="carrinho-de-compras.html">
+                    <img src="IMAGEM/126510.png" class="pt-2 w-5 h-7">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <div class="relative h-56 overflow-hidden rounded-base md:h-96">
+             <!-- Item 1 -->
+            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                <img src="IMAGEM/D_NQ_651343-MLA104672291685_012026-OO.webp" class="absolute block w-full h-130 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 mask-alpha mask-b-from-black mask-b-from-10% mask-b-to-transparent" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                <img src="IMAGEM/D_NQ_657910-MLA103593182024_012026-OO.webp" class="absolute block w-full h-130 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 mask-alpha mask-b-from-black mask-b-from-10% mask-b-to-transparent" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                <img src="IMAGEM/D_NQ_878901-MLA104773307355_012026-OO.webp" class="absolute block w-full h-130 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 mask-alpha mask-b-from-black mask-b-from-10% mask-b-to-transparent" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                <img src="IMAGEM/D_NQ_911029-MLA91604157045_092025-OO.webp" class="absolute block w-full h-130 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 mask-alpha mask-b-from-black mask-b-from-10% mask-b-to-transparent" alt="...">
+            </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+            <button type="button" class="w-3 h-3 rounded-base" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flasex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 light:bg-gray-800/30 group-hover:bg-white/50 light:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#036ffc] white:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#036ffc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/></svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 light:bg-gray-800/30 group-hover:bg-white/50 light:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#036ffc] white:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="#036ffc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/></svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+    <div class="mr-80 ml-80 mt-5 mb-30">
+        <div id="controls-carousel" class="relative w-[1400px]" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="h-56">
+                 <!-- Item 1 -->
+                <div data-carousel-item>
+                    <div class="inline-flex gap-5">
+                        <div class="bg-[#ffffff] w-50 h-75 gap-5">
+                            <p class="p-3">Frete gratis</p>
+                            <div class="p-4 flex flex-col items-center text-center">
+                                <img src="IMAGEM/new-buyer.svg">
+                                <a class="pb-10" href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static">Benefício por ser sua primeira compra.</a>
+                                <button class="bg-[#afd4fa] rounded-md justify-self-center pl-7 pr-7">
+                                    <a href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static" class="text-[#124eb5] text-[13px]">Mostrar produtos</a>
+                                </button>
+                            </div>    
+                        </div>
+                        <div class="bg-[#ffffff] w-50 h-75 gap-5">
+                            <p class="p-3">Entre na sua conta</p>
+                            <div class="p-4 flex flex-col items-center text-center">
+                                <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/registration-da.svg" class="h-25 w-25">
+                                <a class="pb-4" href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static">Aproveite ofertas para comprar tudo que quiser.</a>
+                                <button class="bg-[#afd4fa] rounded-md justify-self-center pl-7 pr-7">
+                                    <a href="colocar-link-aqui" class="text-[#124eb5] text-[12px]">Entrar na sua conta</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="bg-[#ffffff] w-50 h-75 gap-5">
+                            <p class="p-3">Meios de pagamento</p>
+                            <div class="p-4 flex flex-col items-center text-center">
+                                <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/payment-methods.svg" class="h-25 w-25">
+                                <a class="pb-4" href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static">Pague suas compras com rapidez e segurança.</a>
+                                <button class="bg-[#afd4fa] rounded-md justify-self-center pl-7 pr-7">
+                                    <a href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static" class="text-[#124eb5] text-[13px]">Mostrar meios</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="bg-[#ffffff] w-50 h-75 gap-5">
+                            <p class="p-3">Menos de R$100</p>
+                            <div class="p-4 flex flex-col items-center text-center">
+                                <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/mlb-low-price-product.svg"  class="h-25 w-25">
+                                <a class="pb-10" href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static">Confira produtos com preços baixos.</a>
+                                <button class="bg-[#afd4fa] rounded-md justify-self-center pl-7 pr-7">
+                                    <a href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static" class="text-[#124eb5] text-[13px]">Mostrar produtos</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="bg-[#ffffff] w-50 h-75 gap-5">
+                            <p class="p-3">Mais vendidos</p>
+                            <div class="p-4 flex flex-col items-center text-center">
+                                <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/top-sale.svg"  class="h-25 w-25">
+                                <a class="pb-10" href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static">Explore os produtos que são tendência.</a>
+                                <button class="bg-[#afd4fa] rounded-md justify-self-center pl-7 pr-7">
+                                    <a href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static" class="text-[#124eb5] text-[11px]">Ir para Mais vendidos</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="bg-[#ffffff] w-50 h-75 gap-5">
+                            <p class="p-3">Nossas Categorias</p>
+                            <div class="p-4 flex flex-col items-center text-center">
+                                <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/categories.svg"  class="h-25 w-25">
+                                <a class="pb-4" href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static">Encontre celulares, roupas, imóveis e muito mais.</a>
+                                <button class="bg-[#afd4fa] rounded-md justify-self-center pl-7 pr-7">
+                                    <a href="https://www.mercadolivre.com.br/ofertas/frete-gratis#da_id=free_shipping_new_buyer&da_position=0&id_origin=/home/dynamic_access&da_sort_algorithm=static" class="text-[#124eb5] text-[11px]">Ir para Categorias</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <!-- Slider controls -->
+            <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 light:bg-gray-800/30 group-hover:bg-white/50 light:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#036ffc]  light:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-[#036ffc] rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7"/></svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 light:bg-gray-800/30 group-hover:bg-white/50 light:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#036ffc] light:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-[#036ffc] rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/></svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="flex mr-70 ml-80">
+        <div class="w-355 h-100 bg-white inline">
+            <h1 class="pt-3 pl-6 pb-2 font-bold text-xl">Inspirado no que te interessa</h1>
+            <div class="inline-flex">
+                <a href="produtos/pasta_a/bebedouro.html">
+                    <div>
+                        <div class="inline">
+                            <img src="IMAGEM/www.mercadolivre.com.br_ (1).png" class="justify-self-center h-40">
+                        </div>
+                        <p class="text-sm text-gray-800 leading-tight ml-5 mr-19 mt-2">Bebedouro Refrigerado Eletrônico Veronna...</p>
+                        <p class="text-2xl font-bold mt-2 ml-5">R$ 45</p>
+                        <div class="ml-5 mr-10 mt-2">
+                            <p class="text-xs font-bold text-green-600 bg-green-100 pr-2 rounded">Chegará grátis amanhã</p>
+                            <p class="text-xs text-gray-500 ml-1">por ser sua primeira compra</p>
+                        </div>
+                    </div>
+                </a>   
+                <a href="produtos/pasta_b/tv.html">
+                    <div>
+                        <div class="inline">
+                            <img src="IMAGEM/www.mercadolivre.com.br_smart-tv-50-aoc-4k-dled-50u704578g-roku-tv-quad_p_MLB51202548.png" class="justify-self-center h-40">
+                        </div>
+                        <p class="text-sm text-gray-800 leading-tight ml-5 mr-19 mt-2">Smart TV 55" AOC 4K Roku Wi-Fi Alexa...</p>
+                        <p class="text-2xl font-bold mt-2 ml-5">R$ 450</p>
+                        <div class="ml-5 mr-10 mt-2">
+                            <p class="text-xs font-bold text-green-600 pr-2 rounded">Frete Gratis</p>
+                        </div>
+                    </div>
+                </a>        
+                <a href="produtos/pasta_c/parafusadeira.html">
+                    <div>
+                        <div class="inline">
+                            <img src="IMAGEM/D_Q_NP_865332-MLA96868279679_102025-B.webp" class="justify-self-center h-40">
+                        </div>
+                        <p class="text-sm text-gray-800 leading-tight ml-5 mr-19 mt-2">Parafusadeira Furadeira De Impacto The...</p>
+                        <p class="text-2xl font-bold mt-2 ml-5">R$ 450<sup>99</sup></p>
+                        <div class="ml-5 mr-10 mt-2">
+                            <p class="text-xs font-bold text-green-600 bg-green-100 pr-2 rounded">Chegará grátis amanhã</p>
+                            <p class="text-xs text-gray-500 ml-1">por ser sua primeira compra</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="produtos/pasta_d/notebook.html">
+                    <div>
+                        <div class="inline">
+                            <img src="IMAGEM/www.mercadolivre.com.br_.png" class="justify-self-center h-40">
+                        </div>
+                        <p class="text-sm text-gray-800 leading-tight pl-30 mr-19 mt-2">Notebook Acer Nitro V15 ANV15-52-51E4 Intel® Core™ i5-13420H de 13ªG 512GB...</p>
+                        <p class="text-2xl font-bold mt-2 pl-30">R$ 4.500<sup>99</sup></p>
+                        <div class="pl-30 mr-30 mt-2">
+                            <p class="text-xs font-bold text-green-600 bg-green-100 pr-2 rounded">Chegará grátis amanhã</p>
+                            <p class="text-xs text-gray-500 ml-1">por ser sua primeira compra</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="produtos/pasta_e/mochila.html">
+                    <div>
+                        <div class="inline">
+                            <img src="IMAGEM/www.mercadolivre.com.br_mochila-executiva-viagem-grande-notebook-femininas-masculina-cor-preto-desenho-do-tecido-lisa_p_MLB44332733.png" class="justify-self-center h-40">
+                        </div>
+                        <p class="text-sm text-gray-800 leading-tight ml-5 mr-19 mt-2">Mochila Executiva Viagem...</p>
+                        <p class="text-2xl font-bold mt-2 ml-5">R$ 45<sup>45</sup></p>
+                        <div class="ml-5 mr-10 mt-2">
+                            <p class="text-xs font-bold text-green-600 bg-green-100 pr-2 rounded">Chegará grátis amanhã</p>
+                            <p class="text-xs text-gray-500 ml-1">por ser sua primeira compra</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="produtos/pasta_f/whey.html">
+                    <div>
+                        <div class="inline">
+                            <img src="IMAGEM/www.mercadolivre.com.br_whey-protein-concentrado-1kg-growth-supplements-leite-em-po_p_MLB19140327 (1).png" class="justify-self-center h-40">
+                        </div>
+                        <p class="text-sm text-gray-800 leading-tight ml-5 mr-19 mt-2">Whey Protein Concentrado 1kg Growth...</p>
+                        <p class="text-2xl font-bold mt-2 ml-5">R$ 45<sup>90</sup></p>
+                        <div class="ml-5 mr-10 mt-2">
+                            <p class="text-xs font-bold text-green-600 pr-2 rounded">Frete Gratis</p>
+                        </div>
+                    </div>
+                </a>                                                
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#ffffff] mr-70 ml-80 h-100 mt-10">
+        <h1 class="font-bold text-xl pl-8 pt-2 pb-5">Selecionados para você em Esportes e Fitness</h1>
+        <div class="inline-flex">
+            <a href="produtos/pasta_g/whey_chocolate.html">
+                <div>
+                    <div class="inline">
+                        <img src="IMAGEM/www.mercadolivre.com.br_ (2).png" class="justify-self-center h-40">
+                    </div>
+                    <p class="text-sm text-gray-800 leading-tight ml-10 mr-19 mt-2">Whey Protein Concentrado 1kg Chocolate...</p>
+                    <p class="text-2xl font-bold mt-2 ml-10">R$ 45</p>
+                    <div class="ml-10 mr-10 mt-2">
+                        <p class="text-xs font-bold text-green-600 pr-2 rounded">Frete Gratis</p>
+                    </div>
+                </div>
+            </a> 
+            <a href="produtos/pasta_h/whey_de_proteina.html">
+                <div>
+                    <div class="inline">
+                        <img src="IMAGEM/www.mercadolivre.com.br_suplemento-academia-whey-pro-max-titanium-concentrado-pote-1kg-sabor-chocolate_p_MLB6087972.png" class="justify-self-center h-40">
+                    </div>
+                    <p class="text-sm text-gray-800 leading-tight ml-10 mr-19 mt-2">Suplemento Academia Whey Pro Max Titanium...</p>
+                    <p class="text-2xl font-bold mt-2 ml-10">R$ 45</p>
+                    <div class="ml-10 mr-10 mt-2">
+                        <p class="text-xs font-bold text-green-600 pr-2 rounded">Frete Gratis</p>
+                    </div>
+                </div>
+            </a>   
+            <a href="produtos/pasta_i/whey.html">
+                <div>
+                    <div class="inline">
+                        <img src="IMAGEM/www.mercadolivre.com.br_whey-isolate-protein-fuse-900g-dark-lab-sabor-chocolate_p_MLB19381117.png" class="justify-self-center h-40">
+                    </div>
+                    <p class="text-sm text-gray-800 leading-tight ml-10 mr-19 mt-2">Whey Isolate Protein Fuse 900g Dark Lab Sabor Chocolate...</p>
+                    <p class="text-2xl font-bold mt-2 ml-10">R$ 45</p>
+                </div>
+            </a>
+            <a href="produtos/pasta_j/whey_proteina.html">
+                <div>
+                    <div class="inline">
+                        <img src="IMAGEM/www.mercadolivre.com.br_100-whey-protein-900g-sabores-dark-lab-sabor-baunilha_p_MLB23877339.png" class="justify-self-center h-40">
+                    </div>
+                    <p class="text-sm text-gray-800 leading-tight ml-5 mr-19 mt-2">100% Whey Protein 900g...</p>
+                    <p class="text-2xl font-bold mt-2 ml-5">R$ 45</p>
+                    <div class="ml-5 mr-5 mt-2">
+                        <p class="text-xs font-bold text-green-600 pr-2 rounded">Frete Gratis</p>
+                    </div>
+                </div>
+            </a>
+            <a href="produtos/pasta_l/whey_de_proteina.html">
+                <div>
+                    <div class="inline">
+                        <img src="IMAGEM/www.mercadolivre.com.br_creatina-monohidratada-1kg-soldiers-nutrition-100-pura-importada-alta-performance-musculo-treino_p_MLB18725310.png" class="justify-self-center h-40">
+                    </div>
+                    <p class="text-sm text-gray-800 leading-tight ml-10 mr-19 mt-2">Creatina Monohidratada 1Kg Soldiers Nutrition...</p>
+                    <p class="text-2xl font-bold mt-2 ml-10">R$ 45</p>
+                </div>
+            </a>
+            <a href="produtos/pasta_k/whey.html">
+                <div>
+                    <div class="inline">
+                        <img src="IMAGEM/www.mercadolivre.com.br_whey-100-pure-cookies-900g-integralmedica-suplemento-nutritivo-para-treinos-de-alta-performance_p_MLB18218401.png" class="justify-self-center h-40">
+                    </div>
+                    <p class="text-sm text-gray-800 leading-tight ml-10 mr-19 mt-2">Whey 100% Pure Cookies 900g Integralmedica...</p>
+                    <p class="text-2xl font-bold mt-2 ml-10">R$ 45</p>
+                    <div class="ml-10 mr-10 mt-2">
+                        <p class="text-xs font-bold text-green-600 pr-2 rounded">Frete Gratis</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div> 
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+</body>
+</html>
